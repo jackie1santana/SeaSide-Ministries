@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import './styles/header/header.scss';
-import './styles/header/navbar.scss';
-import './styles/footer/footer.scss';
 import LandingPage from './Components/landingpage';
 import About from './Components/Header/Navigation/Menu/about';
 import Blog from './Components/Header/Navigation/Menu/blog';

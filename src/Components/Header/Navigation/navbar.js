@@ -1,5 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../../../styles/header/navbar.scss';
 
 export default function Navbar() {
     return (
@@ -13,22 +14,47 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
         <li className="nav-item active">
-            <Link className="nav-link" to="/">Home<span class="sr-only">(current)</span></Link>
+            <NavLink exact={true} 
+            activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} 
+            className="nav-link" to="/">Home<span class="sr-only">(current)</span></NavLink>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link" to="/about">About<span class="sr-only">(current)</span></Link>
+            <NavLink 
+            activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} className="nav-link" to="/about">About<span class="sr-only">(current)</span></NavLink>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/blog">Blog</Link>
+        <NavLink 
+            activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} className="nav-link" to="/blog">Blog</NavLink>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/dailydevotions">Daily Devotions</Link>
+        <NavLink 
+        activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} className="nav-link" to="/dailydevotions">Daily Devotions</NavLink>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/contact">Ask Pastor Juanita</Link>
+        <NavLink 
+            activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} className="nav-link" to="/contact">Ask Pastor Juanita</NavLink>
         </li>
         <li class="nav-item">
-        <Link className="nav-link" to="/support">Support</Link>
+        <NavLink 
+            activeStyle={{
+            fontWeight: "bold",
+            color: "gray"
+            }} className="nav-link" to="/support">Support</NavLink>
         </li>
         </ul>
     </div>
