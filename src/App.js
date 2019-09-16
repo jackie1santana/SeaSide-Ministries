@@ -8,7 +8,7 @@ import DailyDevotions from './Components/Header/Navigation/Menu/devotions';
 import AskPastorJuanita from './Components/Header/Navigation/Menu/ask_juanita';
 import Support from './Components/Header/Navigation/Menu/support';
 import Navbar from './Components/Header/Navigation/navbar';
-
+import Footer from './Components/Footer/footer';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
     <Switch>
     <div className="App">
     <Navbar />
+    <Footer />
       <Route path="/" exact component={LandingPage} />
       <Route path="/about" component={About} />
       <Route path="/blog" exact component={Blog} />
