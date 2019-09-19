@@ -8,7 +8,12 @@ html {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: black;
+    color: white;
     text-align: center;
-    background-color: lightgray;
+    background-color: #484848;
+}
+
+.card-text{
+    color: gray;
+    font-size: 14px;
 }

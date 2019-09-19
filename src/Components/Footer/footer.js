@@ -5,8 +5,11 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="card-body">
-                <h5 class="card-title">SeaSide Ministries</h5>
-                <p className="card-text">Copyright 2019</p>
+                <p>About</p>
+               <p>Contact</p>
+               <p>Support</p>
+               <p>FAQ</p>
+                <p className="card-text">&copy;  Copyright 2019 SeaSide Ministries</p>
             </div>
     </div>
     )
