@@ -1,4 +1,6 @@
 
+$footer-margin: 0.8125rem;
+
 html {
     position: relative;
     min-height: 100%;
@@ -12,24 +14,30 @@ html {
     color: white;
     text-align: center;
     background-color: #484848;
+    font-family: 'Raleway', sans-serif;
 
     .left-footer{
-    color: gray;
+    color: #999999;
     font-size: 0.8125rem;
     float: left;
+    margin: $footer-margin;
     }
 
     .right-footer{
-        color: gray;
+        color: white;
         font-size: 1.125rem;
         float: right;
         
-        span{
-            margin: 13px;
+        p{
+            margin: $footer-margin;
+            display: inline-grid;
+        }
+        :hover {
+            color: #999999;
+            text-decoration:none;
         }
     }
 
 }
-
 
 

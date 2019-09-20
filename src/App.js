@@ -10,7 +10,7 @@ import Support from './Components/Header/Navigation/Menu/support';
 import Navbar from './Components/Header/Navigation/navbar';
 import Footer from './Components/Footer/footer';
 import PageNotFound from './Components/Error404';
-
+import FAQ from './Components/Header/Navigation/Menu/FAQ';
 
 
 function App() {
@@ -22,10 +22,11 @@ function App() {
     <Switch>
       <Route path="/" exact component={LandingPage} />
       <Route path="/about" component={About} />
-      <Route path="/Testimonies" exact component={Testimonies} />
-      <Route path="/dailydevotions" exact component={DailyDevotions} />
-      <Route path="/contact" exact component={AskPastorJuanita} />
-      <Route path="/support" exact component={Support} />
+      <Route path="/testimonies" component={Testimonies} />
+      <Route path="/dailydevotions" component={DailyDevotions} />
+      <Route path="/contact" component={AskPastorJuanita} />
+      <Route path="/support" component={Support} />
+      <Route path="/faq" component={FAQ} />
       <Route component={PageNotFound} />
       </Switch>
     </div>

@@ -1,17 +1,26 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './../../styles/base.scss'
 
 export default function Footer() {
     return (
         <div className="footer">
             <div className="left-footer">
-                <p>&copy;  Copyright 2019 SeaSide Ministries</p>
+                <p>&copy;  Copyright 2019 SeaSide Ministries Incorporation &trade;</p>
             </div>
             <div className="right-footer">
-               <span>About</span>
-               <span>Contact</span>
-               <span>Support</span>
-               <span>FAQ</span>
+
+               <NavLink style={{color: 'white'}}  
+                 to="/about"><p>About</p></NavLink>
+
+               <NavLink style={{color: 'white'}}  
+               to="/contact"><p>Contact</p></NavLink>
+
+               <NavLink style={{color: 'white'}}  
+                to="/support"><p>Support</p></NavLink>
+
+               <NavLink style={{color: 'white'}}    
+               to="/faq"><p>FAQ</p></NavLink>
                </div>
     </div>
     )
