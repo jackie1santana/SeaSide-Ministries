@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../../styles/header/navbar.scss';
+import '../../../styles/base.scss';
 import Cross from '../../../Images/SVG/CrossSVG'
 
 export default function Navbar() {
@@ -34,7 +34,7 @@ export default function Navbar() {
             activeStyle={{
             fontWeight: "bold",
             color: "gray"
-            }} className="nav-link" to="/blog">Blog</NavLink>
+            }} className="nav-link" to="/testimonies">Testimonies</NavLink>
         </li>
         <li class="nav-item">
         <NavLink 

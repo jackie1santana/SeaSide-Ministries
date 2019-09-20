@@ -1,0 +1,35 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #484848;
+
+    .left-footer{
+    color: gray;
+    font-size: 0.8125rem;
+    float: left;
+    }
+
+    .right-footer{
+        color: gray;
+        font-size: 1.125rem;
+        float: right;
+        
+        span{
+            margin: 13px;
+        }
+    }
+
+}
+
+
+

@@ -1,16 +1,18 @@
 import React from 'react';
-import './../../styles/footer/footer.scss'
+import './../../styles/base.scss'
 
 export default function Footer() {
     return (
         <div className="footer">
-            <div className="card-body">
-                <p>About</p>
-               <p>Contact</p>
-               <p>Support</p>
-               <p>FAQ</p>
-                <p className="card-text">&copy;  Copyright 2019 SeaSide Ministries</p>
+            <div className="left-footer">
+                <p>&copy;  Copyright 2019 SeaSide Ministries</p>
             </div>
+            <div className="right-footer">
+               <span>About</span>
+               <span>Contact</span>
+               <span>Support</span>
+               <span>FAQ</span>
+               </div>
     </div>
     )
 }
