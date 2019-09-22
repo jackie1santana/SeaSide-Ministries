@@ -12,54 +12,63 @@ export default function Navbar() {
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
+
+ 
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
         <li className="nav-item active">
             <NavLink exact={true} 
+            style={{color: 'white'}}
             activeStyle={{
             fontWeight: "bold",
-            color: "gray"
+            color: "#ffcc4b"
             }} 
             className="nav-link" to="/">Home<span className="sr-only">(current)</span></NavLink>
         </li>
         <li className="nav-item active">
             <NavLink 
+            style={{color: 'white'}}
             activeStyle={{
             fontWeight: "bold",
-            color: "gray"
+            color: "#ffcc4b"
             }} className="nav-link" to="/about">About<span className="sr-only">(current)</span></NavLink>
         </li>
         <li className="nav-item">
         <NavLink 
+        style={{color: 'white'}}
             activeStyle={{
             fontWeight: "bold",
-            color: "gray"
+            color: "#ffcc4b"
             }} className="nav-link" to="/testimonies">Testimonies</NavLink>
         </li>
         <li class="nav-item">
         <NavLink 
+        style={{color: 'white'}}
         activeStyle={{
             fontWeight: "bold",
-            color: "gray"
+            color: "#ffcc4b"
             }} className="nav-link" to="/dailydevotions">Daily Devotions</NavLink>
         </li>
         <li className="nav-item">
         <NavLink 
+        style={{color: 'white'}}
             activeStyle={{
             fontWeight: "bold",
-            color: "gray"
+            color: "#ffcc4b"
             }} className="nav-link" to="/contact">Ask Pastor Juanita</NavLink>
         </li>
         <li className="nav-item">
         <NavLink 
+        style={{color: 'white'}}
             activeStyle={{
             fontWeight: "bold",
-            color: "gray"
-            }} className="nav-link" to="/support">Support</NavLink>
+            color: "#ffcc4b"
+            }} className="nav-link" to="/give">Give</NavLink>
         </li>
         </ul>
     </div>
     </nav>
         </div>
+        
     )
 }

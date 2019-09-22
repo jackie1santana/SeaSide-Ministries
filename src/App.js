@@ -6,7 +6,7 @@ import About from './Components/Header/Navigation/Menu/about';
 import Testimonies from './Components/Header/Navigation/Menu/testimonies';
 import DailyDevotions from './Components/Header/Navigation/Menu/devotions';
 import AskPastorJuanita from './Components/Header/Navigation/Menu/ask_juanita';
-import Support from './Components/Header/Navigation/Menu/support';
+import Give from './Components/Header/Navigation/Menu/give';
 import Navbar from './Components/Header/Navigation/navbar';
 import Footer from './Components/Footer/footer';
 import PageNotFound from './Components/Error404';
@@ -25,7 +25,7 @@ function App() {
       <Route path="/testimonies" component={Testimonies} />
       <Route path="/dailydevotions" component={DailyDevotions} />
       <Route path="/contact" component={AskPastorJuanita} />
-      <Route path="/support" component={Support} />
+      <Route path="/give" component={Give} />
       <Route path="/faq" component={FAQ} />
       <Route component={PageNotFound} />
       </Switch>

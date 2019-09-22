@@ -17,7 +17,7 @@ export default function Footer() {
                to="/contact"><p>Contact</p></NavLink>
 
                <NavLink style={{color: 'white'}}  
-                to="/support"><p>Support</p></NavLink>
+                to="/give"><p>Support</p></NavLink>
 
                <NavLink style={{color: 'white'}}    
                to="/faq"><p>FAQ</p></NavLink>
