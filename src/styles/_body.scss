@@ -1,3 +1,14 @@
-body{
-    
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    article {
+        color:black;
+        padding: 1em;
+        &:nth-child(odd){
+            background-color:white;
+        }
+    }
 }
+
+
