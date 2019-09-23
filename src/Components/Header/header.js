@@ -1,16 +1,13 @@
 import React from 'react';
+import '../../styles/base.scss';
 
 export default function Header() {
     return (
         <div>
                 <div class="card">
-    <div className="card-header">
-        Featured
-    </div>
     <div className="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p className="card-text">HEADER</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h1 class="card-title">SeaSide Ministries</h1>
+        <p className="card-text">The Power of Praise</p>
     </div>
     </div>
         </div>
