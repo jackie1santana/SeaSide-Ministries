@@ -2,29 +2,25 @@
     
     background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.3)
     ),
     url("../Images/seasidecrop.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  height: 60vh;
+
+  height: 50vh;
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
   .card{
     
-    background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)
-    ),
-    url("../Images/seasidecrop.jpg");
+    background: url("../Images/seasidecrop.jpg");
   background-size: contain;
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
   
-  height: 20vh;
+
+
   }
 }
