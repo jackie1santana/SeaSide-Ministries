@@ -2,6 +2,7 @@
 $footer-margin: 0.8125rem;
 
 html {
+    
     position: relative;
     min-height: 100%;
 }
@@ -9,12 +10,14 @@ html {
 .footer{
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10;
     width: 100%;
     color: white;
     text-align: center;
     background-color: #484848;
     font-family: 'Raleway', sans-serif;
+    padding: 3.75rem;
+    
 
     .left-footer{
     color: #999999;

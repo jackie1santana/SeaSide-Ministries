@@ -1,12 +1,15 @@
 .wrapper {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
+    background-color:rgb(236, 235, 235);
     article {
         color:black;
         padding: 1em;
+        margin:1em;
+        background-color:white;
         &:nth-child(odd){
-            background-color:white;
+            background-color:rgb(197, 193, 193);
         }
     }
 }
