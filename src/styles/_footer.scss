@@ -7,10 +7,21 @@ html {
     min-height: 100%;
 }
 
+body{
+    margin: 0 0 220px;
+}
+
+@media only screen and (min-width: 360px) {
+    body{
+        margin: 0 0 300px;
+    }
+  }
+
+
 .footer{
     position: absolute;
     left: 0;
-    bottom: 10;
+    bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
@@ -43,4 +54,42 @@ html {
 
 }
 
+
+@media only screen and (max-width: 500px) {
+    .footer{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: #484848;
+        font-family: 'Raleway', sans-serif;
+        padding: .75rem;
+        
+    
+        .left-footer{
+        color: #999999;
+        font-size: 0.8125rem;
+        float: left;
+        margin: $footer-margin;
+        }
+    
+        .right-footer{
+            color: white;
+            font-size: 1.125rem;
+            float: right;
+            
+            p{
+                margin: $footer-margin;
+                display: inline-grid;
+            }
+            :hover {
+                color: #999999;
+                text-decoration:none;
+            }
+        }
+    
+    }
+  }
 
