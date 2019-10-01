@@ -1,26 +1,15 @@
-import React, { Component, useState, useEffect } from 'react'
+import React from 'react'
 
 
-export default class devotions extends Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
 
+const Devotions = () => {
  
-    
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+    return (
+        <div>
+     
+        </div>
+    )
 }
 
 
-
-
+export default Devotions;

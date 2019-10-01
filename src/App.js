@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from './Components/landingpage';
 import About from './Components/Header/Navigation/Menu/about';
 import Testimonies from './Components/Header/Navigation/Menu/testimonies';
-import DailyDevotions from './Components/Header/Navigation/Menu/devotions';
+import DailyDevotions from './Components/Header/Navigation/Menu/Devotions';
 import AskPastorJuanita from './Components/Header/Navigation/Menu/ask_juanita';
 import Give from './Components/Header/Navigation/Menu/give';
 import Navbar from './Components/Header/Navigation/navbar';
@@ -14,6 +14,7 @@ import FAQ from './Components/Header/Navigation/Menu/FAQ';
 
 
 function App() {
+ 
   return (
     <Router>
     <div className="App">
